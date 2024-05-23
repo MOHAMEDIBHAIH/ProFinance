@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="close-froms.png" />
+    <None Remove="Images\carnet.png" />
+    <None Remove="Images\close-froms.png" />
+    <None Remove="Images\dashborad_icon.png" />
+    <None Remove="Images\icon-remises.png" />
+    <None Remove="Images\icon-settings.png" />
+    <None Remove="Images\icons-bank-account.png" />
+    <None Remove="Images\icons-bookmark.png" />
+    <None Remove="Images\icons-card-transfer.png" />
+    <None Remove="Images\icons-cheque.png" />
+    <None Remove="Images\icons-company.png" />
+    <None Remove="Images\icons-kite-shape-green.png" />
+    <None Remove="Images\icons-kite-shape-orange.png" />
+    <None Remove="Images\icons-users.png" />
+    <None Remove="Images\icons8-ajouter-30.png" />
+    <None Remove="Images\icons8-annuler-50.png" />
+    <None Remove="Images\icons8-cancel-100.png" />
+    <None Remove="Images\icons8-checkmark-100.png" />
+    <None Remove="Images\icons8-minus-100.png" />
+    <None Remove="Images\icons8-mises-à-jour-disponibles-50.png" />
+    <None Remove="Images\icons8-moins-2-mathématique-30.png" />
+    <None Remove="Images\icons8-print-100.png" />
+    <None Remove="Images\icons8-sauvegarder-50.png" />
+    <None Remove="Images\icons8-supprimer-30.png" />
+    <None Remove="Images\imprimant.png" />
+    <None Remove="Images\indure_froms.png" />
+    <None Remove="Images\logout_icon.png" />
+    <None Remove="Images\logo_app.png" />
+    <None Remove="Images\moreoptions.png" />
+    <None Remove="Images\openmenu.png" />
+    <None Remove="Images\utilisateur_icon.png" />
+    <None Remove="Images\validé.png" />
+    <None Remove="indure_froms.png" />
+    <None Remove="logo_app.png" />
+    <None Remove="openmenu.png" />
+    <None Remove="utilisateur_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\carnet.png" />
+    <Resource Include="Images\icons8-annuler-50.png" />
+    <Resource Include="Images\icons8-moins-2-mathématique-30.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\close-froms.png" />
+    <Resource Include="Images\dashborad_icon.png" />
+    <Resource Include="Images\icon-remises.png" />
+    <Resource Include="Images\icon-settings.png" />
+    <Resource Include="Images\icons-bank-account.png" />
+    <Resource Include="Images\icons-bookmark.png" />
+    <Resource Include="Images\icons-card-transfer.png" />
+    <Resource Include="Images\icons-cheque.png" />
+    <Resource Include="Images\icons-company.png" />
+    <Resource Include="Images\icons-kite-shape-green.png" />
+    <Resource Include="Images\icons-kite-shape-orange.png" />
+    <Resource Include="Images\icons-users.png" />
+    <Resource Include="Images\icons8-ajouter-30.png" />
+    <Resource Include="Images\icons8-cancel-100.png" />
+    <Resource Include="Images\icons8-checkmark-100.png" />
+    <Resource Include="Images\icons8-minus-100.png" />
+    <Resource Include="Images\icons8-mises-à-jour-disponibles-50.png" />
+    <Resource Include="Images\icons8-print-100.png" />
+    <Resource Include="Images\icons8-sauvegarder-50.png" />
+    <Resource Include="Images\icons8-supprimer-30.png" />
+    <Resource Include="Images\imprimant.png" />
+    <Resource Include="Images\indure_froms.png" />
+    <Resource Include="Images\logout_icon.png" />
+    <Resource Include="Images\logo_app.png" />
+    <Resource Include="Images\moreoptions.png" />
+    <Resource Include="Images\openmenu.png" />
+    <Resource Include="Images\utilisateur_icon.png" />
+    <Resource Include="Images\validé.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="C_VirementEmis.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="C_VirementEmis.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\mohma\Desktop\APP\ProFinance-master\ProFinance\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\mohma\Desktop\APP\ProFinance-master\ProFinance\.editorconfig" />
+  </ItemGroup>
+
+</Project>
